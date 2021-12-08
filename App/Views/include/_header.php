@@ -24,11 +24,7 @@
     <link rel="stylesheet" href="/assets/css/nice-select.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/trending/style.css">
-    <style>
-        .product-area .nav-tabs li a.active, .product-area .nav-tabs li:hover a {
-            background: #072366!important;
-        }
-    </style>
+
 </head>
 <body>
 <!-- ? Preloader Start -->

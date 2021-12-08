@@ -93,7 +93,7 @@ Version:1.0
 	cursor:pointer;
 }
 .color-plate span.color1{
-	background:#072366;
+	background:#F7941D;
 }
 .color-plate span.color2{
 	background:#0088CC;
@@ -129,99 +129,99 @@ Version:1.0
 	background:#FF1D38;
 }
 /* Preloader */
-/*.preloader {*/
-/*  position: fixed;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*  z-index: 999999999;*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*  background-color: #fff;*/
-/*  overflow: hidden;*/
-/*}*/
-/*.preloader-inner {*/
-/*  position: absolute;*/
-/*  top: 50%;*/
-/*  left: 50%;*/
-/*  -webkit-transform: translate(-50%,-50%);*/
-/*  -moz-transform: translate(-50%,-50%);*/
-/*  transform: translate(-50%,-50%);*/
-/*}*/
-/*.preloader-icon {*/
-/*  width: 100px;*/
-/*  height: 100px;*/
-/*  display: inline-block;*/
-/*  padding: 0px;*/
-/*}*/
-/*.preloader-icon span {*/
-/*  position: absolute;*/
-/*  display: inline-block;*/
-/*  width: 100px;*/
-/*  height: 100px;*/
-/*  border-radius: 100%;*/
-/*  background:#F7941D;*/
-/*  -webkit-animation: preloader-fx 1.6s linear infinite;*/
-/*  animation: preloader-fx 1.6s linear infinite;*/
-/*}*/
-/*.preloader-icon span:last-child {*/
-/*  animation-delay: -0.8s;*/
-/*  -webkit-animation-delay: -0.8s;*/
-/*}*/
-/*@keyframes preloader-fx {*/
-/*  0% {transform: scale(0, 0); opacity:0.5;}*/
-/*  100% {transform: scale(1, 1); opacity:0;}*/
-/*}*/
-/*@-webkit-keyframes preloader-fx {*/
-/*  0% {-webkit-transform: scale(0, 0); opacity:0.5;}*/
-/*  100% {-webkit-transform: scale(1, 1); opacity:0;}*/
-/*}*/
-/*!* End Preloader *!*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.preloader-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.preloader-icon {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 0px;
+}
+.preloader-icon span {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background:#F7941D;
+  -webkit-animation: preloader-fx 1.6s linear infinite;
+  animation: preloader-fx 1.6s linear infinite;
+}
+.preloader-icon span:last-child {
+  animation-delay: -0.8s;
+  -webkit-animation-delay: -0.8s;
+}
+@keyframes preloader-fx {
+  0% {transform: scale(0, 0); opacity:0.5;}
+  100% {transform: scale(1, 1); opacity:0;}
+}
+@-webkit-keyframes preloader-fx {
+  0% {-webkit-transform: scale(0, 0); opacity:0.5;}
+  100% {-webkit-transform: scale(1, 1); opacity:0;}
+}
+/* End Preloader */
 
-/*.btn {*/
-/*	position: relative;*/
-/*	font-weight: 500;*/
-/*	font-size:14px;*/
-/*	color: #fff;*/
-/*	background: #333;*/
-/*	display: inline-block;*/
-/*	-webkit-transition: all 0.4s ease;*/
-/*	-moz-transition: all 0.4s ease;*/
-/*	transition: all 0.4s ease;*/
-/*	z-index: 5;*/
-/*	display: inline-block;*/
-/*	padding: 13px 32px;*/
-/*	border-radius: 0px;*/
-/*	text-transform:uppercase;*/
-/*}*/
-/*.btn:hover{*/
-/*	color:#fff;*/
-/*	background:#F7941D;*/
-/*}*/
-/*#scrollUp {*/
-/*	right: 10px;*/
-/*	z-index: 33;*/
-/*	bottom: 10px;*/
-/*	text-align: center;*/
-/*}*/
-/*#scrollUp i{*/
-/*	height: 40px;*/
-/*    width: 40px;*/
-/*    line-height: 40px;*/
-/*	background:transparent;*/
-/*    background:#222;*/
-/*    border-radius: 0;*/
-/*	font-size: 18px;*/
-/*	-webkit-transition: all 500ms ease;*/
-/*    -moz-transition: all 500ms ease;*/
-/*    transition: all 500ms ease;*/
-/*	display:block;*/
-/*	color: #fff;*/
-/*	box-shadow: 0px 4px 19px #00000038;*/
-/*}*/
-/*#scrollUp i:hover{*/
-/*	background:#F7941D;*/
-/*	color:#fff;*/
-/*}*/
+.btn {
+	position: relative;
+	font-weight: 500;
+	font-size:14px;
+	color: #fff;
+	background: #333;
+	display: inline-block;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	z-index: 5;
+	display: inline-block;
+	padding: 13px 32px;
+	border-radius: 0px;
+	text-transform:uppercase;
+}
+.btn:hover{
+	color:#fff;
+	background:#F7941D;
+}
+#scrollUp {
+	right: 10px;
+	z-index: 33;
+	bottom: 10px;
+	text-align: center;
+}
+#scrollUp i{
+	height: 40px;
+    width: 40px;
+    line-height: 40px;
+	background:transparent;
+    background:#222;
+    border-radius: 0;
+	font-size: 18px;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+	display:block;
+	color: #fff;
+	box-shadow: 0px 4px 19px #00000038;
+}
+#scrollUp i:hover{
+	background:#F7941D;
+	color:#fff;
+}
 /*======================================
 	01. Header CSS
 ========================================*/
@@ -1207,7 +1207,7 @@ Version:1.0
 
 /*======================================
    Hero Area CSS
-========================================*/
+========================================*/ 
 .hero-slider {
 	background: #fff;
 	overflow: hidden;
@@ -1221,7 +1221,7 @@ Version:1.0
     height: 510px;
 }
 .hero-slider .text-inner {
-
+	
 }
 .hero-slider .hero-text {
 	padding: 0 30px;
@@ -1454,7 +1454,7 @@ Version:1.0
 }
 /* Hero Area 4 */
 .hero-area4 .big-content{
-
+	
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1523,11 +1523,11 @@ Version:1.0
 
 /*======================================
    End Hero Area CSS
-========================================*/
+========================================*/ 
 
 /*======================================
    Start Small Banner CSS
-========================================*/
+========================================*/ 
 .small-banner{
 	padding:30px 0;
 	padding-bottom:0;
@@ -1582,11 +1582,11 @@ Version:1.0
 }
 /*======================================
    End Small Banner CSS
-========================================*/
+========================================*/ 
 
 /*======================================
    Start Mid Banner CSS
-========================================*/
+========================================*/ 
 .midium-banner{
 	padding:0;
 }
@@ -1648,7 +1648,7 @@ Version:1.0
 }
 /*======================================
    End Mid Banner CSS
-========================================*/
+========================================*/ 
 
 /*======================================
    Start Most Popular CSS
@@ -1734,7 +1734,7 @@ Version:1.0
 }
 .product-area .nav-tabs li:last-child a{
 	border-color:transparent;
-}
+} 
 .product-area .nav-tabs li a i{
 	margin-right:10px;
 }
@@ -1879,7 +1879,7 @@ Version:1.0
 	border-bottom:6px solid transparent;
 }
 .single-product .product-img .product-action a:hover {
-	color:#072366;
+	color:#F7941D;
 }
 .single-product .product-img .product-action a:hover span {
   visibility: visible;
@@ -1921,7 +1921,7 @@ Version:1.0
 	display: inline-block;
 }
 .single-product .product-img .product-action-2 a:hover {
-  color:#072366;
+  color:#F7941D;
 }
 .single-product .button-head {
 	background: #fff;
@@ -2125,7 +2125,7 @@ Version:1.0
 	margin-top: 10px;
 }
 .shop-sidebar .categor-list li{
-
+	
 }
 .shop-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -2596,7 +2596,7 @@ Version:1.0
 	border-color:transparent;
 }
 .shop.single .tab-single {
-
+	
 }
 .shop.single .single-des {
 	margin-top:35px;
@@ -2605,7 +2605,7 @@ Version:1.0
 	margin-bottom:15px;
 	font-weight:500;
 	font-size:22px;
-
+	
 }
 .shop.single .single-des ul{}
 .shop.single .single-des ul li {
@@ -2974,7 +2974,7 @@ Version:1.0
 	transform:rotate(360deg);
 }
 .shopping-cart .border{
-
+	
 }
 .shopping-cart .table .remove-icon{
 	font-size:16px;
@@ -3131,7 +3131,7 @@ Version:1.0
 	padding-left: 100px;
 }
 .shopping-cart .total-amount .right ul{
-
+	
 }
 .shopping-cart .total-amount .right ul li {
 	font-size: 15px;
@@ -3217,7 +3217,7 @@ Version:1.0
 	background: #F6F7FB;
 }
 .shop.checkout .form .form-group input:hover{
-
+	
 }
 .shop.checkout .nice-select {
 	width: 100%;
@@ -3600,45 +3600,45 @@ Version:1.0
 	color:#fff;
 	border-color:transparent;
 }
-/*!* Pagination CSS *!*/
-/*.pagination {*/
-/*	text-align: left;*/
-/*	margin: 50px 0 0 0;*/
-/*	display:block;*/
-/*}*/
-/*.pagination.center {*/
-/*	text-align: center;*/
-/*}*/
-/*.pagination .pagination-list li {*/
-/*	margin-right: 5px;*/
-/*	display: inline-block;*/
-/*}*/
-/*.pagination .pagination-list li:last-child{*/
-/*	margin-right:0px;*/
-/*}*/
-/*.pagination .pagination-list li a {*/
-/*	background: #F6F7FB;*/
-/*	color: #666;*/
-/*	padding: 6px 18px;*/
-/*	font-weight: 400;*/
-/*	border: 1px solid #e1e1e1;*/
-/*	font-size: 16px;*/
-/*	border-radius: 0px;*/
-/*}*/
-/*.pagination .pagination-list li.active a,*/
-/*.pagination .pagination-list li:hover a{*/
-/*	background: #F7941D;*/
-/*	color: #fff;*/
-/*	border-color: transparent;*/
-/*}*/
-/*.pagination .pagination-list li a i{*/
-/*	font-size:13px;*/
-/*}*/
-/*.pagination .pagination-list li a i{}*/
-/*.blog-grids.pagination{*/
-/*	margin-top:50px;*/
-/*	text-align:center;*/
-/*}*/
+/* Pagination CSS */
+.pagination {
+	text-align: left;
+	margin: 50px 0 0 0;
+	display:block;
+}
+.pagination.center {
+	text-align: center;
+}
+.pagination .pagination-list li {
+	margin-right: 5px;
+	display: inline-block;
+}
+.pagination .pagination-list li:last-child{
+	margin-right:0px;
+}
+.pagination .pagination-list li a {
+	background: #F6F7FB;
+	color: #666;
+	padding: 6px 18px;
+	font-weight: 400;
+	border: 1px solid #e1e1e1;
+	font-size: 16px;
+	border-radius: 0px;
+}
+.pagination .pagination-list li.active a,
+.pagination .pagination-list li:hover a{
+	background: #F7941D;
+	color: #fff;
+	border-color: transparent;
+}
+.pagination .pagination-list li a i{
+	font-size:13px;
+}
+.pagination .pagination-list li a i{}
+.blog-grids.pagination{
+	margin-top:50px;
+	text-align:center;
+}
 /*======================================
    End Shop List CSS
 ========================================*/
@@ -3706,7 +3706,7 @@ Version:1.0
 	margin-top:40px;
 	width: 80px;
 	display:inline-block;
-
+	
 }
 .cown-down .content .cdown {
 	text-align: center;
@@ -3965,7 +3965,7 @@ Version:1.0
 .about-us .about-img img{
 	height:100%;
 	width:100%;
-
+	
 }
 /*=============================
 	End About US CSS
@@ -3973,7 +3973,7 @@ Version:1.0
 
 /*======================================
   10. Start Team CSS
-========================================*/
+========================================*/  
 .team{
 	background:#F6F7FB;
 }
@@ -4036,7 +4036,7 @@ Version:1.0
 }
 /*======================================
   End Team CSS
-========================================*/
+========================================*/ 
 
 /*======================================
    Start Shop Blog CSS
@@ -4181,7 +4181,7 @@ Version:1.0
 	margin-top: 15px;
 }
 .main-sidebar .categor-list li{
-
+	
 }
 .main-sidebar .categor-list li {
 	margin-bottom: 10px;
@@ -4227,7 +4227,7 @@ Version:1.0
 	border:none;
 }
 .main-sidebar .single-post .image {
-
+	
 }
 .main-sidebar .single-post .image img{
 	float: left;
@@ -4295,7 +4295,7 @@ Version:1.0
 }
 /* Blog Newslatter CSS */
 .main-sidebar .newsletter{
-
+	
 }
 .main-sidebar .newsletter .letter-inner {
 	position:relative;
@@ -4494,7 +4494,7 @@ Version:1.0
 	background:#F7941D;
 }
 .blog-single .comments{
-
+	
 }
 .blog-single .comments .single-comment {
 	position: relative;
@@ -4513,7 +4513,7 @@ Version:1.0
 	left: 0;
 }
 .blog-single .single-comment .content {
-
+	
 }
 .blog-single .single-comment .content h4 {
 	color: #333;
@@ -4923,7 +4923,7 @@ Version:1.0
 }
 /* Copyright */
 .footer .copyright{
-
+	
 }
 .footer .copyright .inner{
 	border-top:1px solid #eeeeee3d;
